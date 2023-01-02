@@ -1,0 +1,224 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+.container{
+    display: flex;
+    
+    width: 70%;
+    height: 60vh;
+    
+}
+
+.container .card-one{
+    width: calc(100% / 3);
+    background-color:hsl(31, 77%, 52%) ;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+}
+
+.container .card-one img{
+    margin-top: 5rem;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+}
+.container .card-one h1{
+    margin: 0 0 2.5rem 2.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',cursive;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.container .card-one p{
+    margin: 0 2.5rem 0 2.5rem;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif; 
+    line-height: 2;
+    width: 55%;
+    margin-bottom: 5.5rem;
+}
+.container .card-one button{
+    /* position: absolute;
+    left: 50%;
+    transform: translatex(-50%); */
+    width: 50%;
+    height: 3rem;
+    border-radius: 4rem;
+    border: 0.188rem solid hsl(0, 0%, 95%) ;
+    color: hsl(31, 77%, 52%) ;
+    font-size: 1.4rem;
+    font-family: 'Lexend Deca', sans-serif; 
+    letter-spacing: -0.063rem;
+    margin: 0 2.5rem 0 2.5rem;
+    background-color: hsl(0, 0%, 95%);
+    
+    
+}
+.container .card-one button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.container .card-two{
+    width: calc(100% / 3);
+    background-color:hsl(184, 100%, 22%) ;
+    
+}
+
+
+
+.container .card-two img{
+    margin-top: 5rem;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+}
+.container .card-two h1{
+    margin: 0 0 2.5rem 2.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',cursive;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.container .card-two p{
+    margin: 0 2.5rem 0 2.5rem;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif; 
+    line-height: 2;
+    width: 55%;
+    margin-bottom: 5.5rem;
+}
+.container .card-two button{
+    /* position: absolute;
+    left: 50%;
+    transform: translatex(-50%); */
+    width: 50%;
+    height: 3rem;
+    border-radius: 4rem;
+    border: 0.188rem solid hsl(0, 0%, 95%) ;
+    color: hsl(184, 100%, 22%) ;
+    font-size: 1.4rem;
+    font-family: 'Lexend Deca', sans-serif; 
+    letter-spacing: -0.063rem;
+    margin: 0 2.5rem 0 2.5rem;
+    background-color: hsl(0, 0%, 95%);
+    
+    
+}
+.container .card-two button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+
+
+
+.container .card-three{
+    width: calc(100% / 3);
+    background-color:hsl(179, 100%, 13%) ;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+   
+}
+
+
+
+
+.container .card-three img{
+    margin-top: 5rem;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+}
+.container .card-three h1{
+    margin: 0 0 2.5rem 2.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',cursive;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.container .card-three p{
+    margin: 0 2.5rem 0 2.5rem;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif; 
+    line-height: 2;
+    width: 55%;
+    margin-bottom: 5.5rem;
+}
+.container .card-three button{
+    /* position: absolute;
+    left: 50%;
+    transform: translatex(-50%); */
+    width: 50%;
+    height: 3rem;
+    border-radius: 4rem;
+    border: 0.188rem solid hsl(0, 0%, 95%) ;
+    color: hsl(179, 100%, 13%) ;
+    font-size: 1.4rem;
+    font-family: 'Lexend Deca', sans-serif; 
+    letter-spacing: -0.063rem;
+    margin: 0 2.5rem 0 2.5rem;
+    background-color: hsl(0, 0%, 95%);
+    
+    
+    
+}
+.container .card-three button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+@media (min-width:375px) and (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        
+
+    }
+    .container .card-one , .container .card-two , .container .card-three{
+        width: 100%;
+        
+        
+    }
+    .container .card-one button , .container .card-two button , .container .card-three button{
+        margin-bottom: 2rem;
+    }
+    .container .card-one p , .container .card-two p , .container .card-three p{
+        margin-bottom: 2rem;
+    }
+    .container .card-three{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.625rem;
+        border-bottom-right-radius: 0.625rem;
+        
+        
+    }
+    .container .card-one{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.625rem;
+
+    }
+}
