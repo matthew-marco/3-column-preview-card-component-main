@@ -75,6 +75,7 @@ body{
 .container .card-one button:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 .container .card-two{
     width: calc(100% / 3);
@@ -124,6 +125,7 @@ body{
 .container .card-two button:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 
@@ -184,6 +186,7 @@ body{
 .container .card-three button:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 
